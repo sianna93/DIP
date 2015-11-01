@@ -1,0 +1,13 @@
+﻿Compilación iniciada a las 06/08/2015 9:53:04.
+Proyecto "c:\Users\SIANNA\documents\visual studio 2012\Projects\EcualizacionHistograma\EcualizacionHistograma\EcualizacionHistograma.vcxproj" en el nodo 2 (Build destinos).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ecualizacion.cpp
+  ecualizacion.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\sianna\documents\visual studio 2012\Projects\EcualizacionHistograma\Debug\EcualizacionHistograma.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\sianna\documents\visual studio 2012\Projects\EcualizacionHistograma\Debug\EcualizacionHistograma.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\sianna\documents\visual studio 2012\Projects\EcualizacionHistograma\Debug\EcualizacionHistograma.lib" /MACHINE:X86 Debug\ecualizacion.obj
+  EcualizacionHistograma.vcxproj -> c:\users\sianna\documents\visual studio 2012\Projects\EcualizacionHistograma\Debug\EcualizacionHistograma.exe
+Compilación del proyecto terminada "c:\Users\SIANNA\documents\visual studio 2012\Projects\EcualizacionHistograma\EcualizacionHistograma\EcualizacionHistograma.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.50

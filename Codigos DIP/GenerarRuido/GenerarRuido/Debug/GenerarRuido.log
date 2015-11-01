@@ -1,0 +1,20 @@
+﻿Compilación iniciada a las 12/08/2015 17:09:52.
+Proyecto "C:\Users\SIANNA\Documents\Visual Studio 2012\Projects\GenerarRuido\GenerarRuido\GenerarRuido.vcxproj" en el nodo 2 (Build destinos).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GenerarRuido.cpp
+  GenerarRuido.cpp
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(102): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(106): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(121): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(125): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(148): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(207): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\sianna\documents\visual studio 2012\projects\generarruido\generarruido\generarruido.cpp(265): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SIANNA\Documents\Visual Studio 2012\Projects\GenerarRuido\Debug\GenerarRuido.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib opencv_ml249d.lib opencv_video249d.lib opencv_features2d249d.lib opencv_calib3d249d.lib opencv_objdetect249d.lib opencv_contrib249d.lib opencv_legacy249d.lib opencv_flann249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SIANNA\Documents\Visual Studio 2012\Projects\GenerarRuido\Debug\GenerarRuido.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SIANNA\Documents\Visual Studio 2012\Projects\GenerarRuido\Debug\GenerarRuido.lib" /MACHINE:X86 Debug\GenerarRuido.obj
+  GenerarRuido.vcxproj -> C:\Users\SIANNA\Documents\Visual Studio 2012\Projects\GenerarRuido\Debug\GenerarRuido.exe
+Compilación del proyecto terminada "C:\Users\SIANNA\Documents\Visual Studio 2012\Projects\GenerarRuido\GenerarRuido\GenerarRuido.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.54
