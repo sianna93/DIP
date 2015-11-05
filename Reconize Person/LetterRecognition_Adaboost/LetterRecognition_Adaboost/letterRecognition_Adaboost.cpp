@@ -142,7 +142,7 @@ int build_boost_classifier( char* data_filename )
 		
 	}
 
-	/*
+	///*
 
     // 2. create type mask
     var_type = cvCreateMat( var_count + 2, 1, CV_8U );
@@ -206,7 +206,7 @@ int build_boost_classifier( char* data_filename )
             train_hr*100., test_hr*100. );
 
     printf( "Number of trees: %d\n", boost.get_weak_predictors()->total );
-    */
+    //*/
 	system("PAUSE");
     cvReleaseMat( &temp_sample );
     cvReleaseMat( &weak_responses );
@@ -222,5 +222,6 @@ int main()
 {
         
         build_boost_classifier( "letter-recognition.data");
+		//build_boost_classifier( "samples.data");
         return 0;
 }

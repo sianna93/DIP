@@ -18,12 +18,13 @@ int main(){
 	CvMLData cvml;
 	//2. Read the file
 	cvml.read_csv("samples.csv");
+	//cvml.read_csv("samples.csv");
 	//3. Indicate which column is the response
 	cvml.set_response_idx(0);
 
 	//Step 3. Splitting the samples
 	//1. Select 11 for the training
-	CvTrainTestSplit cvtts(11, true);
+	CvTrainTestSplit cvtts(1, true);
 	//2. Assign the division to the data
 	cvml.set_train_test_split(&cvtts);
 	printf("\nsplit_part_mode %d\n", cvtts.train_sample_part_mode);
@@ -31,11 +32,13 @@ int main(){
 	//Step 4. The training process
 	//1. Declare the classifier
 	CvBoost boost;
+	printf("aqui-");
 	//2. Train it with 1 or n features
-	boost.train(&cvml, CvBoostParams(CvBoost::REAL, 1, 0, 1, false, 0), false);
-
+	boost.train(&cvml, CvBoostParams(CvBoost::REAL, 16, 0, 1, false, 0), false);
+	//boost.train(&cvml,CvBoostParams(CvBoost::REAL, 100, 0.95, 5, false, 0 ), false);
 	//Step 5.
 	// 1. Declare a couple of vectors to save the predictions of each sample
+	printf("aqui+");
 	std::vector <float> train_responses, test_responses;
 	// 2. Calculate the training error
 	float fl1 = boost.calc_error(&cvml,CV_TRAIN_ERROR,&train_responses);
@@ -53,7 +56,7 @@ int main(){
 	
 	//Step 6. Save your classifier!!
 	// Save the trained classifier
-	boost.save("./trained_boost.xml", "boost");
+	//boost.save("./trained_boost1.xml", "boost");
 
 	//Step 7. Compiling the whole code
 
